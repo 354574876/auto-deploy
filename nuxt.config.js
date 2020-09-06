@@ -1,4 +1,7 @@
 export default {
+  server: {
+    host: '0.0.0.0' // default: localhost
+  },
   plugins: ['~/plugins/request.js', '~/plugins/dayjs.js'],
   router: {
     linkActiveClass: 'active',

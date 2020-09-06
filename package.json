@@ -5,16 +5,15 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build"
-  },
-  "devDependencies": {
-    "nuxt": "^2.14.4"
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "dependencies": {
     "axios": "^0.20.0",
     "cookieparser": "^0.1.0",
     "dayjs": "^1.8.35",
     "js-cookie": "^2.2.1",
-    "qs": "^6.9.4"
+    "qs": "^6.9.4",
+    "nuxt": "^2.14.4"
   }
 }
